@@ -24,6 +24,13 @@ function feature3() {
 
 }
 
+function feature4() {
+        echo
+        echo "This is function feature 4"
+        echo
+        read -p "Press enter to terminate session: " enter
+
+}
 
 function main_program() {
 
@@ -33,7 +40,8 @@ function main_program() {
                 echo
                 echo "1 - Feature 1"
                 echo "2 - Feature 2"
-		echo "3 - Feature 3"
+		            echo "3 - Feature 3"
+		            echo "4 - Feature 4"
                 echo
                 read -p "Select feature and press enter: " choice
 		case $choice in
